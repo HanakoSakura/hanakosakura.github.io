@@ -1,0 +1,57 @@
+p {
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Consolar, "Microsoft YaHei";
+    margin:0.4em;
+}
+
+div.head {
+    position: fixed;
+    border: 0.2em solid;
+    border-color: #e3caff;
+    border-radius: 0.5em;
+    left: 1em;
+    right: 1em;
+    background-color: white;
+}
+
+div.text {
+    position: absolute;
+    border: 0.2em solid;
+    border-color: #e3caff;
+    border-radius: 0.5em;
+    top: 4.8em;
+    left: 1em;
+    right: 1em;
+    background-color: white;
+    z-index: -1;
+    bottom: 1em;
+}
+
+.Moving {
+    position: relative;
+    display: inline-block;
+}
+.Moving-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 100;
+}
+.Moving:hover .Moving-content{
+    display: block;
+}
+
+.inside-right {
+    position: relative;
+    float: right;
+
+    width: 10%;
+    
+
+    border-left-style: solid;
+    border-left-color: #e3caff;
+    border-left-width: 1px;
+}
