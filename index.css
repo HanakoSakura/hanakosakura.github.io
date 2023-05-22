@@ -9,6 +9,13 @@ a {
     margin: 0.4em;
 }
 
+a:link {
+    color: #c0ffff;
+}
+a:visited {
+    color: #ffc0c0
+}
+
 div.head {
     position: fixed;
     border: 0.2em solid;
