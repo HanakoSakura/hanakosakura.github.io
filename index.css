@@ -8,6 +8,12 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif, Consolar, "Microsoft YaHei";
     margin: 0.4em;
 }
+code {
+    border: 0em solid;
+    border-color: #C0C0C);
+    border-radius: 0.5em;
+    background-color: #C0C0C0;
+}
 
 a:link {
     color: #c0ffff;
