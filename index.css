@@ -10,9 +10,14 @@ a {
 }
 code {
     border: 0em solid;
-    border-color: #C0C0C);
+    border-color: #F0F0F0;
     border-radius: 0.5em;
-    background-color: #C0C0C0;
+    background-color: #F0F0F0;
+    font-size: 1.0em;
+    font-family:cursive;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #FF8080;
 }
 
 a:link {
